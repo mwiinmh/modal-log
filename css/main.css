@@ -1,0 +1,85 @@
+@import url(./reset.css);
+
+header{
+    h1, footer{
+        line-height: 7.8rem;
+        text-align: center;
+        color: #fff;
+        background-color: #222;
+    }
+}
+header{
+    h1{
+        font-size: 5rem;
+        color: rgb(233, 240, 11);
+        a{
+            color: inherit;
+            font-size: large;
+            vertical-align: middle;
+        }
+    }
+
+}
+
+/* MODALE */
+.modal-parent{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100svh;
+    width: 100svw;
+    background-color: rgba(111, 8, 8, 0.3);
+    z-index: -1; /* -1 */
+    backdrop-filter: blur(.3rem);
+    opacity: 0;
+    /* transition */
+    transition: all .6s ease-in-out;
+}
+
+/* event css target */
+.appear-modal:target{
+    opacity: 1;
+    z-index: 1;
+}
+
+.modal-parent figure{
+    position: absolute;
+    padding: 1rem;
+    border-radius: .4rem;
+    top: 50%;
+    left: 50%;
+    width: 70rem;
+    background: #fff;
+    transform: translate(-50%, -50%);
+
+    img{
+        display: inline-block;
+        vertical-align: middle;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.modal-parent figure a.closed{
+     color: #fff;
+     font-size: 2rem;
+     position: absolute;
+     top: 1rem;
+     right: 2rem;
+     font-weight: normal;
+}
+.modal-parent figure .btn-closed{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    display: inline-block;
+    width: max-content;
+    padding: 0 2.5rem;
+    line-height: 4.5rem;
+    background-color: #737ab1;
+    color: #fafafafa;
+    border-radius: .4rem;
+    box-shadow: 0.6rem #413441;
+    text-shadow: -.1rem .1rem 0 #413441;
+    font-size: large;
+}

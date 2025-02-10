@@ -1,0 +1,1 @@
+# Fenètre modales : dialog
