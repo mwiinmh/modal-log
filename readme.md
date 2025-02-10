@@ -11,4 +11,4 @@ Cet exercice explore les **fenêtres modales animées** en **CSS pur**, sans Jav
 
 
 
-! [cover](./asset/dessinee.jpg)
+![cover](./asset/dessinee.jpg)
