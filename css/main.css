@@ -37,7 +37,7 @@ header{
 }
 
 /* event css target */
-.appear-modal:target{
+.appear-modal:target, .appear-modal{
     opacity: 1;
     z-index: 1;
 }
