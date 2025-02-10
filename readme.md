@@ -1,11 +1,14 @@
-# 🚀 Fenètre modales : dialog
+# 🚀 Exercice : Fenêtres Modales en CSS - Thème Star Trek 🖖  
 
->Le sujet traité dans cette exemple concerne les fenêtres modales ou dialog
+Cet exercice explore les **fenêtres modales animées** en **CSS pur**, sans JavaScript !  
 
-## Languages utilisés: 
+✨ Fonctionnalités :  
+- Ouverture/fermeture de la modale avec `:target` en CSS  
+- Effets d’animation pour une immersion Star Trek 🌌  
+- Des **emojis cool** inspirés de l'univers 🛸👽🚀  
 
-1. HTML
-2. CSS
-3. JS
+📌 **Objectif** : Comprendre comment créer une modale interactive uniquement en CSS tout en s'amusant avec un thème futuriste !  
+
+
 
 ! [cover](./asset/dessinee.jpg)
